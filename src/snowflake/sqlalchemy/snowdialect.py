@@ -134,7 +134,7 @@ class SnowflakeDialect(default.DefaultDialect):
     #  unicode strings
     supports_unicode_statements = True
     supports_unicode_binds = True
-    returns_unicode_strings = String.RETURNS_UNICODE
+    returns_unicode_strings = True 
     description_encoding = None
 
     # No lastrowid support. See SNOW-11155
